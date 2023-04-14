@@ -27,6 +27,11 @@ void input()
 	}
 }
 
+void linesearch()
+{
+	char ch;
+	int comparisons; //Number of comparisons
+
 
 
 	
