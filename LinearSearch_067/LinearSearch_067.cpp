@@ -47,6 +47,17 @@ void linesearch()
 				cout << "\n" << item << "found at posisition" << (i + 1) << endl;
 
 			}
+		}
+		if (i == n) // Langkah 5B not found
+			cout << "\n" << item << "not found in the array\n";
+		cout << "\nNumber of comaparisons :" << comparisons << endl;
+
+		cout << "\nContinue search (y/n): ";
+		cin >> ch;
+	} while ((ch == 'y') || (ch == 'y'));
+}
+
+
 
 		
 
