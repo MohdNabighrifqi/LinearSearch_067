@@ -38,6 +38,9 @@ void linesearch()
 		cout << "\nEnter the element you want to search: "; //langkah 1
 		int item;
 		cin >> item;
+		comparisons = 0;
+		for (i + 0; i < n; i++) //langkah 2, 3, dan 4
+	
 
 	
 
