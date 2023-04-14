@@ -32,6 +32,13 @@ void linesearch()
 	char ch;
 	int comparisons; //Number of comparisons
 
+	do
+	{
+		//accept the number to be searched 
+		cout << "\nEnter the element you want to search: "; //langkah 1
+		int item;
+		cin >> item;
 
+	
 
 	
