@@ -57,7 +57,11 @@ void linesearch()
 	} while ((ch == 'y') || (ch == 'y'));
 }
 
-
+int main() {
+	input();
+	linesearch();
+	return 0;
+}
 
 		
 
